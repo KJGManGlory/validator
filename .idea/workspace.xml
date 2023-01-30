@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c01a3bb4-af2a-48a4-b863-d0e451257ef0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/WhenTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/param/PhraseEditParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/param/WhenParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/ListParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/param/ListParam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/OvalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/OvalBaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/PhraseEditParam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/StringParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/param/StringParam.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2E7CW1aiXjDgxQ39iZyWfmLt7hB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lizza.base.oval" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WhenTests.test2">
+    <configuration name="OvalBaseTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validator-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.base.oval.param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.base.oval" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.base.oval.OvalBaseTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OvalBaseTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validator-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.base.oval.param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.base.oval" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.base.oval.OvalBaseTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OvalBaseTests.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validator-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.base.oval.param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.base.oval" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.base.oval.OvalBaseTests" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validator-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.base.oval.param.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.base.oval" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.base.oval.WhenTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhenTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="validator-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lizza.base.oval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lizza.base.oval" />
+      <option name="MAIN_CLASS_NAME" value="com.lizza.base.oval.WhenTests" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WhenTests.test2" />
+        <item itemvalue="JUnit.WhenTests.test1" />
+        <item itemvalue="JUnit.OvalBaseTests.test3" />
+        <item itemvalue="JUnit.OvalBaseTests.test2" />
+        <item itemvalue="JUnit.OvalBaseTests.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c01a3bb4-af2a-48a4-b863-d0e451257ef0" name="Changes" comment="" />
+      <created>1661937264345</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661937264345</updated>
+      <workItem from="1661937265810" duration="12855000" />
+      <workItem from="1662189220329" duration="23000" />
+      <workItem from="1662283806430" duration="4325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/validator-base/src/main/java/com/lizza/base/oval/WhenTests.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/sf/oval/oval/1.90/oval-1.90-sources.jar!/net/sf/oval/AbstractCheck.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/net/sf/oval/oval/1.90/oval-1.90-sources.jar!/net/sf/oval/Validator.java</url>
+          <line>600</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.reflect.annotation.AnnotationInvocationHandler" memberName="type" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

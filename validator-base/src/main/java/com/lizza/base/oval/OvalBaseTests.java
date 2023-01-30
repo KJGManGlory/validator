@@ -1,13 +1,15 @@
 package com.lizza.base.oval;
 
 import com.google.common.collect.Lists;
+import com.lizza.base.oval.param.ListParam;
+import com.lizza.base.oval.param.StringParam;
 import net.sf.oval.ConstraintViolation;
 import net.sf.oval.Validator;
 import org.junit.Test;
 
 import java.util.List;
 
-public class OvalTests {
+public class OvalBaseTests {
 
     private static final Validator validator = new Validator();
 
@@ -43,27 +45,6 @@ public class OvalTests {
         param.setPhones(Lists.newArrayList());
         check(param);
         System.out.println("-----------");
-    }
-
-    /**
-     * 嵌套对象
-     */
-    @Test
-    public void test3() throws Exception {
-        PhraseEditParam param = PhraseEditParam.builder().build();
-        check(param);
-        System.out.println("-----------");
-        param.setContent(PhraseEditParam.Content.builder().build());
-        param.setType("TEXT");
-        check(param);
-        System.out.println("-----------");
-    }
-
-    @Test
-    public void test4() throws Exception {
-        PhraseEditParam param = PhraseEditParam.builder().build();
-        param.setType("TEXT");
-        PhraseEditParam.Content content = PhraseEditParam.Content.builder().build();
     }
 
     private static void check(Object param) {

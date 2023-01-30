@@ -1,4 +1,4 @@
-package com.lizza.base.oval;
+package com.lizza.base.oval.param;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -29,30 +29,27 @@ public class PhraseEditParam {
 
     @NotNull
     @AssertValid
-    private Content content;
+    private PhraseEditParam.Content content;
 
 
     @Data
-    @Builder
-    @NoArgsConstructor
-    @AllArgsConstructor
-    public static class Content {
+    public class Content {
 
-        @NotNull(when = "groovy:type == 'TEXT'")
+        @NotNull(when = "groovy:_this.type == 'TEXT'")
         @Size(max = 500)
         private String text;
 
         @NotNull(when = "groovy:_this.type == 'IMAGE'")
-        private List<Image> images;
+        private List<PhraseEditParam.Image> images;
 
         @NotNull(when = "groovy:_this.type == 'VIDEO'")
-        private Video video;
+        private PhraseEditParam.Video video;
 
         @NotEmpty(when = "groovy:_this.type == 'FILE'")
-        private File file;
+        private PhraseEditParam.File file;
 
         @NotEmpty(when = "groovy:_this.type == 'NEWS'")
-        private News news;
+        private PhraseEditParam.News news;
     }
 
     @Data

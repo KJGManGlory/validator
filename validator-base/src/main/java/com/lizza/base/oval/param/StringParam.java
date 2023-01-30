@@ -1,4 +1,4 @@
-package com.lizza.base.oval;
+package com.lizza.base.oval.param;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
